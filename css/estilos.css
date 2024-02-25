@@ -7,7 +7,7 @@ body {
 }
 
 :root {
-    --main-color: #16b93a;
+    --main-color: #d3054a;
 }
 
 header, section, footer {
@@ -177,10 +177,10 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 250px; /* Ajuste según necesidad */
     text-align: center;
 }
@@ -189,3 +189,46 @@ footer {
     font-size: 50px;
     margin-bottom: 10px;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-color: #01e1ff;
+    }
+    body {
+        background-color: #222222;
+        color: #01e1ff;
+    }
+    #idiomas {
+        background-color: #363636;
+    }
+    .language {
+        background-color: #444444;
+    }
+    #informatica {
+        background-color: #363636;
+    }
+    .skill {
+        background-color: #444444;
+    }
+    #experiencia {
+        background-color: #363636;
+    }
+    .job {
+        background-color: #444444;
+    }
+    #formacion-reglada {
+        background-color: #363636;
+    }
+    .degree {
+        background-color: #444444;
+    }
+    #formacion-complementaria {
+        background-color: #363636;
+    }
+    .course {
+        background-color: #444444;
+    }
+    footer {
+        color: #363636;
+    }
+  }
